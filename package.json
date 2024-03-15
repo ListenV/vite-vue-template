@@ -1,0 +1,36 @@
+{
+  "name": "vue-project",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --open",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "up": "taze major -I",
+    "size-check": "vite-bundle-visualizer"
+  },
+  "dependencies": {
+    "@vueuse/core": "^10.9.0",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.8.3",
+    "@unocss/eslint-config": "^0.58.6",
+    "@unocss/reset": "^0.58.6",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.23.0",
+    "taze": "^0.13.3",
+    "unocss": "^0.58.6",
+    "unplugin-auto-import": "^0.17.5",
+    "unplugin-vue-components": "^0.26.0",
+    "vite": "^5.1.6",
+    "vite-bundle-visualizer": "^1.1.0",
+    "vite-plugin-vue-devtools": "^7.0.17"
+  }
+}
