@@ -15,22 +15,22 @@
   "dependencies": {
     "@vueuse/core": "^10.9.0",
     "pinia": "^2.1.7",
-    "vue": "^3.4.21",
-    "vue-router": "^4.3.0"
+    "vue": "^3.4.27",
+    "vue-router": "^4.3.2"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.8.3",
-    "@unocss/eslint-config": "^0.58.6",
-    "@unocss/reset": "^0.58.6",
+    "@antfu/eslint-config": "^2.18.0",
+    "@unocss/eslint-config": "^0.60.2",
+    "@unocss/reset": "^0.60.2",
     "@vitejs/plugin-vue": "^5.0.4",
-    "eslint": "^8.57.0",
-    "eslint-plugin-vue": "^9.23.0",
-    "taze": "^0.13.3",
-    "unocss": "^0.58.6",
-    "unplugin-auto-import": "^0.17.5",
-    "unplugin-vue-components": "^0.26.0",
-    "vite": "^5.1.6",
-    "vite-bundle-visualizer": "^1.1.0",
-    "vite-plugin-vue-devtools": "^7.0.17"
+    "eslint": "^9.2.0",
+    "eslint-plugin-vue": "^9.26.0",
+    "taze": "^0.13.8",
+    "unocss": "^0.60.2",
+    "unplugin-auto-import": "^0.17.6",
+    "unplugin-vue-components": "^0.27.0",
+    "vite": "^5.2.11",
+    "vite-bundle-visualizer": "^1.2.1",
+    "vite-plugin-vue-devtools": "^7.2.0"
   }
 }
