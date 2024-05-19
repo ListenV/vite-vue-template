@@ -7,8 +7,6 @@ import UnoCSS from 'unocss/vite'
 import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
 
-
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
     vue(),
@@ -17,7 +15,9 @@ export default defineConfig({
     AutoImport({
       imports: ['vue', 'pinia', 'vue-router', '@vueuse/core']
     }),
-    Components({}),
+    Components({
+      resolvers: [],
+    }),
   ],
   resolve: {
     alias: {
